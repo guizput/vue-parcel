@@ -1,0 +1,20 @@
+{
+  "name": "vue-parcel",
+  "version": "1.0.0",
+  "description": "Vue app bundled with ParcelJs",
+  "author": "guigui",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "parcel": "latest",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "@parcel/transformer-vue": "^2.8.3"
+  }
+}
